@@ -1,0 +1,7 @@
+/* Modify the .ejecutarIcono class */
+.ejecutarIcono img {
+    width: 40px;
+    height: 40px;
+    transition: filter 0.3s ease;
+}
+

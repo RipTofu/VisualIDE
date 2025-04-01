@@ -1,0 +1,128 @@
+/* Container Styling */
+.administrador-archivos {
+    overflow: auto;
+    padding: 20px;
+    border-radius: 8px;
+    color: var(--primario);
+    font-family: 'Arial', sans-serif;
+}
+
+.administrador-archivos h2 {
+    color: var(--highlight);
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+/* File Upload Section */
+.upload-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.upload-section input[type="file"] {
+    border: 1px solid var(--borde);
+    background-color: var(--fondo-secundario);
+    color: var(--primario);
+    padding: 5px;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.upload-section button {
+    border: none;
+    padding: 8px 16px;
+    background-color: var(--secundario);
+    color: var(--primario);
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.upload-section button:hover {
+    background-color: var(--highlight);
+}
+
+/* File List Styling */
+.file-list {
+    margin-top: 20px;
+    border: 1px solid var(--borde);
+    border-radius: 8px;
+    background-color: var(--fondo-secundario);
+    padding: 15px;
+}
+
+.file-list h3 {
+    color: var(--highlight);
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.file-list ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.file-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid var(--borde);
+    color: var(--primario);
+    transition: background-color 0.2s;
+}
+
+.file-list li:last-child {
+    border-bottom: none;
+}
+
+.file-list li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Buttons for each file */
+.file-actions button {
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.file-actions .download-button {
+    background-color: var(--positivo);
+    color: var(--primario);
+}
+
+.file-actions .download-button:hover {
+    background-color: var(--highlight);
+}
+
+.file-actions .editor-button {
+    background-color: var(--secundario);
+    color: var(--primario);
+}
+
+.file-actions .editor-button:hover {
+    background-color: var(--highlight);
+}
+
+.file-actions .delete-button {
+    background-color: var(--negativo);
+    color: var(--primario);
+}
+
+.file-actions .delete-button:hover {
+    background-color: #ff453a;
+}
+

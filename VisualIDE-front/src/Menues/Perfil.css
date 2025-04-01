@@ -1,0 +1,35 @@
+.perfil-container {
+    overflow: auto;
+}
+
+.perfil-container h2 {
+    color: var(--highlight);
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.perfil-info p {
+    color: var(--primario);
+    margin: 8px 0;
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.barra-almacenamiento {
+    background-color: var(--borde);
+    border-radius: 5px;
+    overflow: hidden;
+    height: 20px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.barra-almacenamiento-usado {
+    height: 100%;
+    background-color: var(--negativo);
+    transition: width 0.3s ease;
+}
+
+.barra-almacenamiento:hover {
+    background-color: var(--positivo);
+}

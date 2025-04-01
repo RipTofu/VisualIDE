@@ -1,0 +1,59 @@
+.grid-contenedor {
+    height: 100vh;
+    width: 95%;
+    position: relative;
+    display: flex;
+    left: 3vw;
+    flex-direction: column;
+}
+
+.grid-item {
+    background: var(--fondo-secundario);
+    border: 2px solid var(--borde);
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 0 5px 0 var(--borde);
+}
+
+.topbar-arrastrable {
+    cursor: move;
+    color: var(--primario);
+    background: var(--fondo-secundario);
+    padding: 5px;
+    text-align: center;
+    border-bottom: 1px solid var(--borde);
+    font-weight: bold;
+    position: relative;  /* Add this to make it a reference for absolute positioning */
+}
+
+.titulo-arrastrable {
+    display: inline-block;
+    width: 100%; /* Ensure it takes the full width of its container */
+}
+
+.boton-accion {
+    position: absolute; /* Position it absolutely within the parent container */
+    right: 10px; /* Place it in the right corner */
+    top: 50%; /* Vertically center it */
+    transform: translateY(-50%); /* Adjust to make it perfectly centered vertically */
+    z-index: 1; /* Ensure it stays above other content */
+}
+
+/* You can keep the other styles as they are */
+.consola {
+    overflow-y: auto;
+    white-space: pre-wrap;
+    height: 100%;
+    padding: 10px;
+    background-color: var(--fondo-secundario);
+}
+
+.boton-overlay {
+    top: 10px;
+    right: 10px;
+    background-color: var(--fondo-secundario);
+    color: var(--negativo);
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}

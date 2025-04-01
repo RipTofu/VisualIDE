@@ -1,0 +1,17 @@
+.configuracion {
+    height: 100%;
+    padding: 10px;
+    background-color: var(--fondo-secundario);
+    color: var(--primario);
+}
+
+.config-item {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type="range"] {
+    width: 150px;
+}

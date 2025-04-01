@@ -1,0 +1,40 @@
+.sidebar {
+    width: 3vw;
+    height: 100vh;
+    background-color: var(--fondo-secundario);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.sidebar-item {
+    fill: var(--icono);
+    display: block;
+    text-align: center;
+    margin-bottom:30px;
+    max-width: 55%;
+    max-height: 55%;
+    width: auto;
+    height: auto;
+}
+
+.divider {
+    width: 80%;
+    height: 1px;
+    background-color: var(--separador);
+    margin-bottom: 30px;
+    border: none;
+}
+
+.sidebar-item:hover {
+    fill: var(--highlight)
+}
+
+.sidebar-item.active {
+    fill: var(--highlight);
+}

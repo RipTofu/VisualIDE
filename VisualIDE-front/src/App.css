@@ -1,0 +1,64 @@
+
+:root, [data-theme='dark'] {
+  background: rgb(39,40,34);
+  background: linear-gradient(45deg, rgba(39,40,34,1) 0%, rgba(85,57,61,1) 100%);
+  --fondo-primario: #3e3d32;
+  --fondo-secundario: #272822;
+  --primario: #f8f8f2;
+  --secundario: #FF6578;
+  --highlight: #EACB64;
+  --icono: #8A7856;
+  --borde: #404040;
+  --positivo: #88B15D;
+  --negativo: #ff1654;
+  --separador: rgba(255, 255, 255, 0.3);
+}
+
+[data-theme='light'] {
+  background: rgb(161,222,191);
+  background: radial-gradient(circle, rgba(161,222,191,1) 2%, rgba(255,255,255,1) 66%, rgba(221,221,221,1) 99%);
+  --fondo-primario: #dddd;
+  --fondo-secundario: #ffff;
+  --primario: #030302;
+  --secundario: rgb(161,222,191);
+  --highlight: #ff7c0e;
+  --icono: #7bc39f;
+  --borde: #439abe;
+  --positivo: #246222;
+  --negativo: #790C0C;
+  --separador: rgba(255, 255, 255, 0.3);
+}
+
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+  transition: background-color0.3s, color0.3s;
+}
+
+
+.grid-contenedor.oscurecido {
+  position: relative;
+  z-index: 1;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 2;
+}
+
+.destacar-componente {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: transparent;
+  z-index: 3;
+}

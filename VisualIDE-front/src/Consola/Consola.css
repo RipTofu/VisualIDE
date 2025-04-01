@@ -1,0 +1,18 @@
+.consola {
+    overflow: auto;
+}
+
+.stdout {
+    color: var(--positivo);
+    white-space: pre-wrap
+}
+
+.stderr {
+    color: var(--negativo);
+    white-space: pre-wrap;
+}
+
+.inputRequerido {
+    color: var(--positivo);
+    white-space: pre-wrap;
+}

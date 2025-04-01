@@ -1,0 +1,76 @@
+/* Scoped to lazy-theme class */
+.lazy-theme .hljs {
+    color: #000000;
+    background: #FFFFFF;
+}
+.lazy-theme .hljs ::selection {
+    background: #E3FC8D;
+}
+.lazy-theme .hljs .hljs-line-highlight {
+    background-color: #EFFCA68F;
+}
+.lazy-theme .hljs .hljs-cursor {
+    color: #7C7C7C;
+}
+.lazy-theme .hljs .hljs-whitespace {
+    color: #B6B6B6;
+}
+
+/* Token-specific styles */
+.lazy-theme .hljs-comment {
+    color: #8c868f;
+}
+.lazy-theme .hljs-constant,
+.lazy-theme .hljs-entity,
+.lazy-theme .hljs-support {
+    color: #3b5bb5;
+}
+.lazy-theme .hljs-keyword,
+.lazy-theme .hljs-storage {
+    color: #ff7800;
+}
+.lazy-theme .hljs-string,
+.lazy-theme .hljs-meta-verbatim,
+.lazy-theme .hljs-number {
+    color: #409b1c;
+}
+.lazy-theme .hljs-deprecated {
+    color: #990000;
+    font-style: italic;
+}
+.lazy-theme .hljs-illegal {
+    color: #f8f8f8;
+    background: #9d1e15;
+}
+.lazy-theme .hljs-inherited-class {
+    color: #3b5bb5;
+    font-style: italic;
+}
+.lazy-theme .hljs-placeholder {
+    color: #671ebb;
+}
+.lazy-theme .hljs-function-call {
+    color: #3e4558;
+}
+.lazy-theme .hljs-tag,
+.lazy-theme .hljs-tag .hljs-entity {
+    color: #3a4a64;
+}
+.lazy-theme .hljs-keyword-variant {
+    color: #7f90aa;
+}
+.lazy-theme .hljs-operator {
+    color: #000000;
+}
+.lazy-theme .hljs-operator-symbol {
+    color: #3b5bb5;
+}
+.lazy-theme .hljs-operator-symbol-infix,
+.lazy-theme .hljs-operator-symbol-prefix {
+    color: #3b5bb5;
+}
+.lazy-theme .hljs-operator-symbol-infix-floating-point,
+.lazy-theme .hljs-operator-symbol-prefix-floating-point,
+.lazy-theme .hljs-numeric-floating-point {
+    text-decoration: underline;
+}

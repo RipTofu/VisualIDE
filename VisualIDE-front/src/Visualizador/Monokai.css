@@ -1,0 +1,102 @@
+/* Scoped to monokai-theme class */
+.monokai-theme .hljs {
+    color: #F8F8F2;
+    background: #272822;
+}
+.monokai-theme .hljs ::selection {
+    background: #49483E;
+}
+.monokai-theme .hljs .hljs-line-highlight {
+    background-color: #3E3D32;
+}
+.monokai-theme .hljs .hljs-cursor {
+    color: #F8F8F0;
+}
+.monokai-theme .hljs .hljs-whitespace {
+    color: #3B3A32;
+}
+.monokai-theme .hljs .hljs-indent-guide-active {
+    background-color: #9D550FB0;
+}
+.monokai-theme .hljs .hljs-selection-highlight {
+    border-color: #222218;
+}
+
+/* Token-specific styles */
+.monokai-theme .hljs-comment,
+.monokai-theme .hljs-meta-diff,
+.monokai-theme .hljs-meta-diff-header {
+    color: #75715e;
+}
+.monokai-theme .hljs-string,
+.monokai-theme .hljs-meta-dictionary-json-string {
+    color: #e6db74;
+}
+.monokai-theme .hljs-number,
+.monokai-theme .hljs-constant,
+.monokai-theme .hljs-constant-numeric,
+.monokai-theme .hljs-constant-language,
+.monokai-theme .hljs-constant-character,
+.monokai-theme .hljs-constant-other {
+    color: #b5cea8;
+}
+.monokai-theme .hljs-keyword,
+.monokai-theme .hljs-storage,
+.monokai-theme .hljs-tag,
+.monokai-theme .hljs-markup-deleted {
+    color: #f92672;
+}
+.monokai-theme .hljs-storage-type {
+    color: #66d9ef;
+    font-style: italic;
+}
+.monokai-theme .hljs-class,
+.monokai-theme .hljs-entity-name-class {
+    color: #a6e22e;
+    text-decoration: underline;
+}
+.monokai-theme .hljs-inherited-class {
+    color: #a6e22e;
+    font-style: italic;
+    text-decoration: underline;
+}
+.monokai-theme .hljs-function,
+.monokai-theme .hljs-entity-name-function {
+    color: #a6e22e;
+}
+.monokai-theme .hljs-variable-parameter {
+    color: #fd971f;
+    font-style: italic;
+}
+.monokai-theme .hljs-attribute,
+.monokai-theme .hljs-entity-other-attribute-name {
+    color: #a6e22e;
+}
+.monokai-theme .hljs-support-function,
+.monokai-theme .hljs-support-constant,
+.monokai-theme .hljs-support-type,
+.monokai-theme .hljs-support-class {
+    color: #66d9ef;
+    font-style: italic;
+}
+.monokai-theme .hljs-invalid {
+    color: #f8f8f0;
+    background: #f92672;
+}
+.monokai-theme .hljs-invalid-deprecated {
+    color: #f8f8f0;
+    background: #ae81ff;
+}
+.monokai-theme .hljs-markup-inserted {
+    color: #a6e22e;
+}
+.monokai-theme .hljs-markup-changed {
+    color: #e6db74;
+}
+.monokai-theme .hljs-line-number-find,
+.monokai-theme .hljs-constant-numeric-line-number-find-in-files {
+    color: rgba(174, 129, 255, 0.63); /* #ae81ffa0 */
+}
+.monokai-theme .hljs-entity-filename-find {
+    color: #e6db74;
+}

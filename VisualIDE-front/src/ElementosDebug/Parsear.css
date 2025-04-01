@@ -1,0 +1,19 @@
+/* Parsear.css */
+.parsearIcono svg {
+    transition: fill 0.3s ease; /* Transition effect for color change */
+}
+
+.parsearIcono svg {
+    width: 40px;
+    height: 40px;
+}
+
+/* When in dark mode, the icon will take the value from --icono */
+[data-theme='dark'] .parsearIcono svg {
+    fill: var(--icono);  /* Dark mode icon color */
+}
+
+/* When in light mode, the icon will take the value from --icono */
+[data-theme='light'] .parsearIcono svg {
+    fill: var(--icono);  /* Light mode icon color */
+}
